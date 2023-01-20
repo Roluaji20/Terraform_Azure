@@ -1,0 +1,50 @@
+Important for revision
+ rewie subnet azure
+ provisioners
+ custom-data
+ templatefile funtion
+ data sources
+ output values
+ variables
+
+Terraform commands:
+
+terraform init
+
+terraform fmt
+
+terraform plan
+
+terrafom apply -auto-approve
+
+terraform show
+
+terraform state show resource_name
+
+terraform output
+
+terraform output public_ip_addres
+
+terraform console
+
+terraform apply -destroy
+
+terraform plan -destroy
+
+terraform state list
+
+ssh-keygen -t rsa
+
+ls ~/.ssh
+
+ssh -i ~/.ssh/mtcazurekey adminuser@168.61.51.58
+
+terraform apply -replace name_Resource
+terraform apply -refresh-only
+
+terraform apply -var-file="terraform.tfvars"
+terraform console -var-file="terraform.tfvars"
+terraform console -var="name_Var=value"
+
+
+
